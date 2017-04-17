@@ -1,0 +1,96 @@
+/* Nav Bottom */
+
+.bottomNav {
+
+    padding-left: 60px;
+}
+
+/* Heart Style */
+
+#heart {
+    color: red;
+}
+/* Headline Style */
+
+#headline {
+    background: lightgrey;
+}
+/* Avatar Style */
+
+.avatar {
+    display: inline-block;
+    margin-left: 10px;
+}
+/* Avatar Home Style */
+
+.avatarHm {
+    display: inline-block;
+    border-radius: 80px;
+    margin: 30px;
+    border: 4px solid lightgrey;
+}
+/* Slider Width */
+
+.range-slider {
+    width: 100%;
+}
+/* Slider ToolTip */
+
+output {
+    width: 100%;
+    margin-top: 10px;
+}
+/* Label Slider Right Style */
+
+.right {
+    float: right;
+}
+/* Label Slider Left Style */
+
+.left {
+    float: left;
+}
+/* Avatar Hover Style Survey Form */
+
+.chr:hover {
+    border-radius: 0px 40px 40px 40px;
+    border: 2px solid lightgrey;
+}
+.chr {
+    border-radius: 40px;
+    border: 2px solid lightgrey;
+}
+/* Home Page Image Style */
+
+.hm {
+    position: static;
+    object-fit: cover;
+    width: 100%;
+    transform: none;
+}
+/* Headline Style Effect */
+
+p.shine {
+    font-size: 3em;
+    margin: 0 auto;
+    width: 700px;
+}
+.shine {
+    font-size: 400%;
+    margin-top: 50px;
+    background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+    -webkit-background-size: 125px;
+    color: rgba(255, 255, 255, 0.1);
+    -webkit-background-clip: text;
+    -webkit-animation-name: shine;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes shine {
+    0% {
+        background-position: top left;
+    }
+    100% {
+        background-position: top right;
+    }
+}
